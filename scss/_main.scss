@@ -1,0 +1,41 @@
+.main-portfolio{
+    padding: 20px;
+    margin-top: 0;
+    font-size: large;
+    box-sizing: 600px;
+    background: #212025; 
+    
+    h2{
+        margin-top: 100px;
+        margin-bottom: 20px;
+        color: #e5e5e5;
+    }
+    h5{
+        color: $rosa;
+    }
+    
+    .articulos-portfolios{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        
+        .card-face{
+            border-color: map-get($estiloPortfolio, color);
+            padding: map-get($estiloPortfolio, espaciado);
+            margin: map-get($estiloPortfolio, margen);
+            .card-img-fer{
+                content: url('../Img/disenio2.jpg');
+            }
+            
+        }
+        
+        .boton{
+            background-color: $rosa;
+        }
+        .boton:hover{
+            background-color: $azul;
+        }
+    }
+}
