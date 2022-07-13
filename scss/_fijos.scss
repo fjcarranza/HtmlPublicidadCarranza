@@ -1,0 +1,17 @@
+.logo{
+    /* height: 100%; */
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    /* align-items: center; */
+
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+    font-size: 30px;
+    background: linear-gradient(to right, $rosa, $azul);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}

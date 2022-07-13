@@ -1,0 +1,4 @@
+1 - Para una buena practica de SEO se trabajo con las etiquetas header - main - footer ya que si se usan mucho las etiquetas div el seo las penaliza.
+2 - Se agregaron meta  description, keywords.
+3 - Se cambiaron los titulos de las paginas para que cada una indique a que se refiere.
+4 -  

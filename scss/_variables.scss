@@ -1,3 +1,17 @@
+/*---------- Colores ---------*/
 $rosa: #ff0099;
 $azul: #0004f0;
-$font: 'Roboto', sans-serif;
+$background: #212025;
+
+/*---------- Fuentess ---------*/
+$font-robo: 'Roboto', sans-serif;
+$font-popp: 'Poppins', sans-serif;
+
+
+/*-----------------------------*/
+$portfolios: 'img-1.jpg', 'img-2.jpg', 'img-3.jpg', 'img-1.jpg', 'img-2.jpg', 'img-3.jpg', 'img-1.jpg', 'img-2.jpg';
+$estiloPortfolio:(
+    color: $rosa,
+    espaciado: 20px,
+    margen: 20px,
+);
