@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #212025;
 }
 
 /*---------- Colores ---------*/
@@ -130,6 +136,286 @@
 }
 .main-portfolio .articulos-portfolios .boton:hover {
   background-color: #0004f0;
+}
+
+.main-servicios {
+  max-width: 1200px;
+  height: 700px;
+  margin: auto;
+}
+.main-servicios .container__background-triangle {
+  max-width: 1200px;
+  height: 600px;
+  margin: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-servicios .triangle {
+  width: 300px;
+  height: 300px;
+  background: red;
+  position: absolute;
+}
+.main-servicios .triangle1 {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(to left, #0ea1e6, #1e67c7);
+  right: 100px;
+  top: 100px;
+  animation: t1 5s ease infinite;
+}
+.main-servicios .triangle2 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to left, #ee8105, #c7371e);
+  top: 350px;
+  animation: t2 7s ease infinite;
+}
+.main-servicios .triangle3 {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(to left, #1b8fc5, #df0f8f);
+  left: 200px;
+  animation: t3 9s ease infinite;
+}
+.main-servicios .triangle4 {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(to left, #eaff05, #00fd04);
+  right: -300px;
+  top: -10px;
+  animation: t1 10s ease infinite;
+}
+@keyframes t1 {
+  0% {
+    transform: rotate(45deg) translateY(0px);
+  }
+  33% {
+    transform: rotate(45deg) translateY(20px);
+  }
+  66% {
+    transform: rotate(45deg) translateY(0px);
+  }
+  100% {
+    transform: rotate(45deg) translateY(20px);
+  }
+}
+@keyframes t2 {
+  0% {
+    transform: rotate(45deg) translateY(0px);
+  }
+  33% {
+    transform: rotate(45deg) translateY(20px);
+  }
+  66% {
+    transform: rotate(45deg) translateY(0px);
+  }
+  100% {
+    transform: rotate(45deg) translateY(20px);
+  }
+}
+@keyframes t3 {
+  0% {
+    transform: rotate(45deg) translateY(0px);
+  }
+  33% {
+    transform: rotate(45deg) translateY(20px);
+  }
+  66% {
+    transform: rotate(45deg) translateY(0px);
+  }
+  100% {
+    transform: rotate(45deg) translateY(20px);
+  }
+}
+.main-servicios .container__cards {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-servicios .card {
+  width: 350px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 300ms;
+}
+.main-servicios .card:hover {
+  transform: translateY(-10px);
+}
+.main-servicios .card:hover .cover__card img {
+  transform: scale(1.1);
+}
+.main-servicios .cover__card {
+  width: 100%;
+  height: 180px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.main-servicios .cover__card img {
+  width: 110%;
+  transition: all 300ms;
+}
+.main-servicios .card h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  color: #fff;
+}
+.main-servicios .card p {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+.main-servicios .card hr {
+  margin-top: 30px;
+  border: none;
+  height: 0.2px;
+  background: rgba(65, 65, 65, 0.2196078431);
+}
+.main-servicios .footer__card {
+  margin-top: 10px;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+}
+.main-servicios .footer__card h3 {
+  font-size: 15px;
+  font-weight: 500;
+}
+@media screen and (max-width: 1200px) {
+  .main-servicios .container__background-triangle {
+    height: 1200px;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .main-servicios .container__cards {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    height: 1200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 500px;
+  }
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+}
+
+.footer-cabecera {
+  width: 100%;
+  background-color: #ff0099;
+}
+
+.footer-copy {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer-line-link {
+  width: 50px;
+  background-color: #7c4dff;
+  height: 2px;
+}
+
+.footer-line-contacto {
+  width: 90px;
+  background-color: #7c4dff;
+  height: 2px;
+}
+
+.footer-logo {
+  box-sizing: border-box;
+  font-family: "Exo", sans-serif;
+  font-size: 48px;
+  background: linear-gradient(to right, #ff0099, #0004f0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+/*
+
+En el Responsive mode
+
+
+*/
+@media screen and (max-width: 1150px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .wrapper p {
+    width: 100%;
+  }
+  .menuResponsive {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .wrapper nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .clientes-campanias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer-cont-log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .footer-logo {
+    box-sizing: border-box;
+    font-family: "Exo", sans-serif;
+    font-size: 48px;
+    background: linear-gradient(to right, #ff0099, #0004f0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .clientes-campanias {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
