@@ -162,29 +162,30 @@ body {
   width: 250px;
   height: 250px;
   background: linear-gradient(to left, #0ea1e6, #1e67c7);
-  right: 100px;
+  right: 400px;
   top: 100px;
   animation: t1 5s ease infinite;
 }
 .main-servicios .triangle2 {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   background: linear-gradient(to left, #ee8105, #c7371e);
-  top: 350px;
+  top: 35px;
+  left: 100px;
   animation: t2 7s ease infinite;
 }
 .main-servicios .triangle3 {
   width: 300px;
   height: 300px;
   background: linear-gradient(to left, #1b8fc5, #df0f8f);
-  left: 200px;
+  left: 400px;
   animation: t3 9s ease infinite;
 }
 .main-servicios .triangle4 {
   width: 400px;
   height: 400px;
   background: linear-gradient(to left, #eaff05, #00fd04);
-  right: -300px;
+  right: -100px;
   top: -10px;
   animation: t1 10s ease infinite;
 }
@@ -299,14 +300,120 @@ body {
   font-size: 15px;
   font-weight: 500;
 }
-@media screen and (max-width: 1200px) {
-  .main-servicios .container__background-triangle {
+@media screen and (max-width: 1480px) {
+  .main-servicios {
+    max-width: 1200px;
     height: 1200px;
+    margin: auto;
+  }
+  .main-servicios .container__background-triangle {
+    max-width: 1200px;
+    height: 600px;
     margin: auto;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+  .main-servicios .triangle {
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+  }
+  .main-servicios .triangle1 {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to left, #0ea1e6, #1e67c7);
+    right: 40px;
+    top: 100px;
+    animation: t1 5s ease infinite;
+  }
+  .main-servicios .triangle2 {
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(to left, #ee8105, #c7371e);
+    top: 350px;
+    left: -100px;
+    animation: t2 7s ease infinite;
+  }
+  .main-servicios .triangle3 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to left, #1b8fc5, #df0f8f);
+    left: 200px;
+    animation: t3 9s ease infinite;
+  }
+  .main-servicios .triangle4 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to left, #eaff05, #00fd04);
+    right: 300px;
+    top: 100px;
+    animation: t1 10s ease infinite;
+  }
+  .main-servicios .container__cards {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    height: 1200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 500px;
+  }
+}
+@media screen and (max-width: 748px) {
+  .main-servicios {
+    max-width: 1200px;
+    height: 2200px;
+    margin: auto;
+  }
+  .main-servicios .container__background-triangle {
+    max-width: 1200px;
+    height: 600px;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .main-servicios .triangle {
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+  }
+  .main-servicios .triangle1 {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to left, #0ea1e6, #1e67c7);
+    right: 40px;
+    top: 500px;
+    animation: t1 5s ease infinite;
+  }
+  .main-servicios .triangle2 {
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(to left, #ee8105, #c7371e);
+    top: 190px;
+    animation: t2 7s ease infinite;
+  }
+  .main-servicios .triangle3 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to left, #1b8fc5, #df0f8f);
+    left: 100px;
+    top: -150px;
+    animation: t3 9s ease infinite;
+  }
+  .main-servicios .triangle4 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to left, #eaff05, #00fd04);
+    right: 100px;
+    top: 10px;
+    animation: t1 10s ease infinite;
   }
   .main-servicios .container__cards {
     position: relative;

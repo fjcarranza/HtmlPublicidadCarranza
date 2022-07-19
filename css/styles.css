@@ -50,9 +50,7 @@
     
 }
 
-
-
-/*//////////////////////// Terina la parte de Servicios ///////////////////////////*/
+/*//////////////////////// Termina la parte de Servicios ///////////////////////////*/
 .main-somos{
     padding: 50px;
     margin-top: 0;
@@ -60,21 +58,22 @@
     box-sizing: 600px;
     background: #212025;
 }
+
 .main-somos h2{
     margin-top: 100px;
     margin-bottom: 50px;
     color: #ffffff;
 }
+
 .main-somos h3{
     color: #ffffff;
 }
+
 .main-somos p{
     margin-top: 50px;
     margin-bottom: 10px;
     color: #ffffff;
 }
-
-
 
 .main-contacto{
     background: #212025;
@@ -83,94 +82,70 @@
     margin-top: 0;
     font-size: large;
     text-transform: capitalize;
-    box-sizing: 600px;
-    
+    box-sizing: 600px;   
 }
+
 .main-contacto h2{
     margin-top: 100px;
     margin-bottom: 50px;
     color: rgb(255, 255, 255);
 }
+
 .main-contacto form{
     margin-top: 100px;
     margin-bottom: 50px;
     color: rgb(255, 255, 255);
 }
 
-/* .boton{
-    background-color: #ff0099;
-}
-.boton:hover{
-    background-color: #0004f0;
-} */
-
 .main-index .titulo-grafico{
     margin: 50px;
     margin-top: 100px;
 }  
+
 .main-index .titulo-web{
     margin: 50px;
 } 
+
 .main-index .titulo-marca{
     margin: 50px;
 }  
+
 .main-index .titulo-redes{
     margin: 50px;
 } 
+
 .main-index .titulo-grafico:hover{
     text-transform: uppercase;
 }
+
 .main-index .titulo-web:hover{
     text-transform: uppercase;
 }
+
 .main-index .titulo-marca:hover{
     text-transform: uppercase;
 }
+
 .main-index .titulo-redes:hover{
     text-transform: uppercase;
 }
 
-
 body{
     background: #ffffff;
 }
-/*
-header{
-    width: 100%;
-    height: 100px;
-    overflow: hidden;
-    background:#ffffff;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #e5e5e5;
-    position: fixed;
-    z-index: 100;
-}*/
+
 .footer-color{
     background-color: #1c2331;
     /* background-color: #98de00; */
- 
     margin: 0px;
-    
 }
 
-
-/*
-.menuResponsive{
-    display: none;
-}
-
-header .logo{
-line-height: 100px;
-float: left;
-
-}
-*/
 footer .logo{
     color:#c63434;
     font-size: 40px;
     line-height: 280px;
     float: left;
-    }
+}
 
     
 .notas{
@@ -189,8 +164,6 @@ footer .logo{
     padding: 20px;
 
 }
-
-
 
 ul{
     list-style: none;
@@ -231,6 +204,7 @@ ul{
     font-size: 45px;
     
 }
+
 .foot-c a{
     color: #fff;
     font-size: 25px;
@@ -238,12 +212,9 @@ ul{
     padding: 0;
 }
 
-
-
 .imagenes{
     width: 50vw;
     height: auto;
-
 }
 
 /* Pagina Clientes */
@@ -278,6 +249,7 @@ ul{
 
     gap: 20px;
 }
+
 .card-clientes {
 	border-radius: 10px;
 	min-height: 200px;
@@ -290,6 +262,7 @@ ul{
 
 	
 }
+
 .card-clientes .textos {
 	height: 100%; 
     color: #ffffff;
@@ -297,8 +270,6 @@ ul{
     flex-direction: column;
     justify-content: space-between;
 }
-
-
 
 .coca{background-image: url('../Img/1-m.jpg')}
 .quilmes{background-image: url('../Img/2-m.jpg')}
