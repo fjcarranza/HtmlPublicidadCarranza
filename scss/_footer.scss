@@ -1,0 +1,102 @@
+footer{
+    width: 100%;
+    position: absolute;
+}
+
+.footer-cabecera{
+    width: 100%;
+    background-color: #ff0099;
+}
+.footer-copy{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.footer-line-link{
+    width: 50px; 
+    background-color: #7c4dff; 
+    height: 2px;
+}
+.footer-line-contacto{
+    width: 90px; 
+    background-color: #7c4dff; 
+    height: 2px;
+}
+
+
+.footer-logo{
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+    font-size: 48px;
+    background: linear-gradient(to right, #ff0099, #0004f0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+
+}
+/*
+
+En el Responsive mode
+
+
+*/
+
+@media screen and (max-width: 1150px) {
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.wrapper p{
+    width: 100%;
+}
+.menuResponsive{
+    display: none;
+}
+
+    
+}
+@media screen and (max-width: 900px) {
+    
+    .wrapper nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .clientes-campanias{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer-cont-log{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .footer-logo{
+        box-sizing: border-box;
+        font-family: 'Exo', sans-serif;
+        font-size: 48px;
+        background: linear-gradient(to right, #ff0099, #0004f0);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        }
+    }
+
+@media screen and (max-width: 600px) {
+    .clientes-campanias{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+}
